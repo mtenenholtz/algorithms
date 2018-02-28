@@ -2,7 +2,7 @@ from reverse_int import reverse_int
 import unittest
 
 
-class TestPalindrome(unittest.TestCase):
+class TestReverseInt(unittest.TestCase):
     def test_zero(self):
         self.assertEqual(reverse_int(0), 0, "handles zero properly")
 

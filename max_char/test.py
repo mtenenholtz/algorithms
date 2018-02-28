@@ -2,7 +2,7 @@ from max_char import max_char
 import unittest
 
 
-class TestReverseString(unittest.TestCase):
+class TestMaxChar(unittest.TestCase):
     def test_max_char(self):
         self.assertEqual(max_char('a'), 'a')
         self.assertEqual(max_char('abcdefghijklmnaaaaa'), 'a')
